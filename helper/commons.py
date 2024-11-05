@@ -99,7 +99,7 @@ def split_text(
     """
 
     text_splitter = RecursiveCharacterTextSplitter(
-        separators=["\n", ",", ".", "。", "!", "?"],
+        separators=["\n", ",", ".", "。", "!", "?", "，"],
         chunk_size=max_len,
         chunk_overlap=0,
     )

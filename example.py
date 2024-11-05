@@ -11,4 +11,9 @@ output_path = "F:/project/audio_book/output/fauna01"
 #                streaming=True,
 #                temperature=0.1)
 
-generate_book()
+book_path = "C:/Users/tea9296/Downloads/sss.txt"
+generate_book(book_path=book_path,
+              output="fauna_book1.wav",
+              reference_audio=ref_audio,
+              reference_text=ref_text,
+              temperature=0.1)

@@ -163,3 +163,4 @@ cython_debug/
 model/
 output.wav
 helper/text/LICENSE
+*.wav
